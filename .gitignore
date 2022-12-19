@@ -1,2 +1,4 @@
 /vendor
 text.txt
+composer.json
+composer.lock
