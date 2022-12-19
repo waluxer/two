@@ -11,7 +11,8 @@ curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 $html = curl_exec($ch);
 curl_close($ch);
 
-$pq = phpQuery::newDocument();
-$text = $pq(".h6") -> html();
+$pq = phpQuery::newDocument($html);
+$text = $pq("h6") -> html();
 echo $text
+
 ?>
