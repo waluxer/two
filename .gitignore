@@ -3,3 +3,6 @@ composer.json
 composer.lock
 vendor/composer.php
 vendor/autoload.php
+/cookie
+/site
+/src
