@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'out\\' => array($baseDir . '/src/out'),
-    'in\\' => array($baseDir . '/src/in'),
+    'phpQuery\\' => array($baseDir . '/src/phpQuery/phpQuery/phpQuery'),
 );

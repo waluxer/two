@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'computer/computer',
+        'name' => 'admin/admin',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '58e1b41f1c21d8069023212aa408859e199fec3e',
+        'reference' => '0469f49ddea1b0ff2391c3506cdfa7be0dbc401e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'computer/computer' => array(
+        'admin/admin' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '58e1b41f1c21d8069023212aa408859e199fec3e',
+            'reference' => '0469f49ddea1b0ff2391c3506cdfa7be0dbc401e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

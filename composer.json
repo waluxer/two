@@ -1,20 +1,14 @@
 {
-    "name": "computer/computer",
+    "name": "admin/admin",
     "authors": [
         {
-            "name": "Abraham",
-            "email": "abramisaakovich38@gmail.com"
+            "name": "admin",
+            "email": "admin@gmail.com"
         }
     ],
-
-    "require": {
-        
-    },
-
     "autoload": {
         "psr-4": {
-            "in\\": "src/in",
-            "out\\": "src/out"
+            "phpQuery\\": "src/phpQuery/phpQuery/phpQuery"
         }
     }
 }
